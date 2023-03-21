@@ -37,8 +37,9 @@ class TFactoryProducer {
   }
 }
 
+// TODO:
 type ProduceType = Cat | Dog;
-function buildFatory2<T extends ProduceType>(p: string): TFactory<T> {
+function buildFatory2<T extends ProduceType>(p: string): FactoryType {
   if (p === "Cat") {
     return new CatFactory();
   } else {

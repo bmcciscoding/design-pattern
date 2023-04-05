@@ -6,7 +6,7 @@ interface Player {
 /// 具体内核
 class SysPlayerCore {
   public play(): string {
-    return "Adaptee request";
+    return "use sys player play video";
   }
 }
 
